@@ -1,0 +1,12 @@
+<input type="text" value={{msg}} />                  <!--property binding using curly bracket-->
+<input type="text" [value]=msg />                       <!--property binding using square bracket-->
+<input type="text" [value]=counter /><br/>
+<span [innerText]=counter></span>
+<input type="button" (click)="increment()" value="Increment"/>              <!--2 way binding-->
+
+<br/>
+<br/>
+<span [innerText]=date></span>
+<input type="button" (click)="getDate()" value="Today"/>
+<br/>
+<br/>

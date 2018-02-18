@@ -1,0 +1,30 @@
+{
+    "name": "tsproject",
+    "description": "my another angular project",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "concurrently \"tsc -w \" \"lite-server\" "
+    },
+    "author": {
+        "name": "Gourav Rajdhar",
+        "email": "rajdhar143@gmail.com"
+    },
+    "dependencies": {
+        "@angular/common": "*",
+        "@angular/core": "*",
+        "@angular/compiler": "*",
+        "@angular/forms": "*",
+        "@angular/http": "*",
+        "@angular/platform-browser": "*",
+        "@angular/platform-browser-dynamic": "*",
+        "bootstrap": "*",
+        "systemjs": "*",
+        "core-js": "*",
+        "concurrently": "*",
+        "lite-server": "*",
+        "rxjs": "*",
+        "typescript": "^2.7.2",
+        "zone.js": "*"
+    },
+    "repository": {}
+}
