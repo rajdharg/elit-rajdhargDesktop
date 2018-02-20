@@ -1,0 +1,30 @@
+{
+    "name": "grangularproject",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "concurrently \" tsc -w \" \"lite-server\" "
+    },
+    "author": {
+        "name": "gourav rajdhar",
+        "email": "rajdhar143@gmail.com"
+    },
+    "dependencies": {
+        "@angular/common": "*",
+        "@angular/compiler": "*",
+        "@angular/core": "*",
+        "@angular/forms": "*",
+        "@angular/http": "*",
+        "@angular/platform-browser": "*",
+        "@angular/platform-browser-dynamic": "*",
+        "bootstrap": "*",
+        "concurrently": "*",
+        "core-js": "*",
+        "lite-server": "*",
+        "rxjs": "*",
+        "systemjs": "*",
+        "typescript": "^2.7.2",
+        "zone.js": "*"
+    },
+    "repository": {}
+}
